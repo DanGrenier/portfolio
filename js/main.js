@@ -5,6 +5,8 @@ import ExampleWork from './example-work';
 const myWork = [
 {
   'title': "Proposals",
+  'href': "https://example.com",
+  'desc': "lorem ipsim dolor sit amet",
   'image': {
   	'desc': "Screenshot of proposal tool",
   	'src': "images/example1.png",
@@ -13,6 +15,8 @@ const myWork = [
 },
 {
   'title': "Work Example2",
+  'href': "https://example.com",
+  'desc': "lorem ipsim dolor sit amet",
   'image': {
   	'desc': "Example screenshot2",
   	'src': "images/example2.png",
@@ -21,6 +25,8 @@ const myWork = [
 },
 {
   'title': "work Example3",
+  'href': "https://example.com",
+  'desc': "lorem ipsim dolor sit amet",
   'image': {
   	'desc': "Example screenshot3",
   	'src': "images/example3.png",
