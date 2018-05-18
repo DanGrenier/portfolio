@@ -13,16 +13,15 @@
 
   <body>
     <main class="overflow--auto">
+    
       <h1 class="color--skyBlue section__heading--largest">
-        <!--Your name goes here -->
         DANIEL GRENIER
       </h1>
 
       <ul class="section--social">
 
         <!--Links to relevant professional social media & resume -->
-        <!-- See: http://fontawesome.io/icons/#brand for more -->
-
+        
         <!-- Link to Linked In profile -->
         <li class="socialWrapper">
           <a class="color--skyBlue social"
@@ -54,10 +53,31 @@
       </ul>
     </main>
 
-    <section class="background--skyBlue section">
-      <h2 class="color--cloud margin--none section__text--centered">
+    <section class="background--skyBlue section aboutme">
+      <div class = "row">
+        <div id = "mugshot" class = "col-md-2">
+          <img style="padding-top: 10px;padding-left: 10px" class = "img-round" src="images/danielmug.png">
+        </div>
+        <div class = "title">
+          <h2 class="color--cloud margin--none section__text--centered">
+            About Me
+          </h2>
+        </div>
+      </div>    
+    </section>
+
+    <section class="section section--alignLeft section--description">
+      <p class="color--darkgrey section__description">
+        Software developer for the past 20 years. Enjoys both back-end and front-end development. Ruby, Rails and Javascript are my preferred tools but I am currently expanding my knowledge. I am in the process of obtaining my Amazon Web Services Certifications for Solutions Architect and Developer Associate. This portfolio is serverless and hosted on AWS. It's development and maintenance is managed with AWS developer tools such as CodePipeline, CodeBuild and Lambda.</p>
+    </section>
+
+    <section class="background--skyBlue section portfolio" style="text-align: center;">
+      <h2 class="color--cloud margin--none">
         Portfolio
       </h2>
+      <h5 class="color--cloud margin--none">
+        Some side projects I have been working on...
+      </h5>
     </section>
    
     <div id="example-work">
@@ -65,18 +85,7 @@
 
     
 
-    <section class="background--skyBlue section">
-      <h2 class="color--cloud margin--none section__text--centered">
-        About Me
-      </h2>
-    </section>
-
-    <section class="section section--alignCentered section--description">
-      <p class="color--darkgrey section__description">
-        I am learning to code in the cloud! I like to work hard and learn new things.
-        I want to work for a company that will pay me to code in the cloud!
-      </p>
-
+    
     
     <script type = "text/javascript" src="dist/bundle.js">
     </script>

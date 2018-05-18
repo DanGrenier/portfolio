@@ -11,6 +11,7 @@ class ExampleWork extends React.Component{
 
     this.openModal = this.openModal.bind(this);
     this.closeModal = this.closeModal.bind(this);
+    
   }
 
   openModal(evt, example){
