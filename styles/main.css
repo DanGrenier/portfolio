@@ -24,12 +24,20 @@
   background-color: rgb(52, 152, 219);
 }
 
+.background--grey{
+  background-color: rgb(255,255,255);
+}
+
 .color--skyBlue {
   color: rgb(52, 152, 219);
 }
 
 .color--cloud {
   color: rgb(236, 240, 241);
+}
+
+.color--white {
+  color: rgb(255, 255, 255);
 }
 
 .color--grey {
@@ -234,10 +242,11 @@ h1, h2, h3, h4, h5, h6 {
   font-size: 2.4rem;
   padding: 2rem;
   width: 66%;
+  color: black;
 }
 
 .modal__link {
-  background-color: white;
+  background-color: rgb(52, 152, 219);
   border-radius: 4px;
   padding: 0.4rem 1rem;
   text-transform: uppercase;
@@ -245,5 +254,5 @@ h1, h2, h3, h4, h5, h6 {
 }
 
 .modal__image {
-  opacity: 0.1;
+  opacity: 0.07;
 }
